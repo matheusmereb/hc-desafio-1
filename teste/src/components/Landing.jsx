@@ -28,7 +28,7 @@ export default function Landing(){
                 <img src={Sale} style={{marginTop: 50}} />
                 <div className="l-text" style={{height: 400, width: 650, justifyContent: 'center', padding: 40}}>
                     <h1 className="l-title" style={{fontWeight: 'bolder', fontSize: 50}}>ATÉ 50% OFF NA BLACK FRIDAY</h1>
-                    <h4 className="l-body">Nessa Black Friday temos descontos de até 50% em pedidos acima de 10 caixas*</h4>
+                    <h4 className="l-body">Nessa Black Friday temos descontos de até 50% em pedidos acima de 10 caixas de Post-its variados</h4>
                     <Form></Form>
                 </div>
             </div>
