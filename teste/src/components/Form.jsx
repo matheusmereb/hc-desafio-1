@@ -41,7 +41,8 @@ export default class Form extends React.Component{
                     <input type="checkbox" checked={this.state.aceito} onChange={this.changeCheckbox} style={{margin: 10, opacity: '80%'}} /> Aceito receber informações promocionais pelo e-mail
                 </label>
                 <br />
-                <button className="l-btn" style={{width: 200}} onClick={this.handleSubmit}>SUBSCRIBE</button>
+                <button className="l-btn l-btn-1" onClick={this.handleSubmit}>INSCREVA-ME</button>
+                <button className="l-btn l-btn-2">QUERO SABER MAIS </button>
             </div>
         )
     }
