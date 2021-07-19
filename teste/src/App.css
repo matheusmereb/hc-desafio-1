@@ -54,10 +54,11 @@
   padding: 15px 25px;
   font: bold 20px Arial, sans-serif;
   margin-top: 15px;
+  align-content: center;
 }
 
 .l-btn-1 {
-  width: 200px;
+  width: 220px;
 }
 
 .l-btn-2 {
@@ -88,7 +89,9 @@
   position: absolute;
   bottom: 0;
   padding: 10px;
-  font-weight: 300;
+  font-weight: 200;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .navbar-div {
@@ -103,12 +106,29 @@
   justify-content: flex-end;
 }
 
+.footer-div .nav-logo:hover {
+  -webkit-filter: brightness(70%);
+  filter: brightness(70%);
+}
+
+.iconify:hover {
+  -webkit-filter: brightness(70%);
+  filter: brightness(70%);
+}
+
+.bi {
+  -webkit-filter: brightness(0%);
+  filter: brightness(0%);
+}
+
 .navbar-div > * {
   margin-right: 100px;
 }
 
 .nav-logo:hover {
   transform: scale(1.05);
+  -webkit-filter: brightness(70%);
+  filter: brightness(70%);
 }
 
 .form-input {

@@ -42,7 +42,7 @@ export default class Form extends React.Component{
                 </label>
                 <br />
                 <button className="l-btn l-btn-1" onClick={this.handleSubmit}>INSCREVA-ME</button>
-                <button className="l-btn l-btn-2">QUERO SABER MAIS </button>
+                {/* <button className="l-btn l-btn-2">QUERO SABER MAIS</button> */}
             </div>
         )
     }
